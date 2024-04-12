@@ -416,3 +416,15 @@ document.body.appendChild(fixButton);
 fixButton.addEventListener("click", function() {
     scanner();
 });
+
+// SHORTCUTS
+document.onkeydown = shortcuts;
+
+function shortcuts(evt){
+    if (!evt) evt = event;
+
+    // fix
+    if (evt.ctrlKey && evt.shiftKey && evt.keyCode == 83){ //CTRL+SHIFT+S
+        scanner();
+    }
+}
