@@ -12,3 +12,6 @@
 5. The displayed buttons often have a lot of problems, however, there is a "fix" button on the bottom left. Click on it in case of errors :) .
 
 ![image](https://github.com/Leferche/pixiv-telegram-forwarder/assets/29148244/8df37565-e3bc-4d9d-9a2b-5742614c7e09)
+
+# Shortcuts
+CTRL+SHIFT+S - will launch the fix, as well as the "fix" button.
